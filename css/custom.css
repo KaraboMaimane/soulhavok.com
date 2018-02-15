@@ -1,0 +1,228 @@
+body{
+	color: white;
+	background-color: black;
+}
+
+.navbar{
+/*	height: 60px;*/
+	margin-bottom: 0px;
+	border: 0px solid transparent;
+	opacity : 0.9;
+}
+
+.navbar-inverse{
+	background-color: black;
+}
+.navbar .navbar-inverse:active{
+	background-color:aqua;
+}
+.wrapper{
+	background-image: url(../img/bgImage3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+.imgBust, .imgBust1{
+	border-radius: 0%;
+	height: 200px;
+	width: 200px;
+	/*box-shadow: 1px 3px 10px 0px gold;*/
+}
+.imgBust1{
+	box-shadow: 0px 0px 0px 0px transparent;
+}
+.heading{
+	font-weight: bold;
+	text-shadow: 5px 5px 6px gold;
+	font-size: 4.0em;
+}
+.heading1, .bookings{
+	font-weight: bold;
+	text-shadow: 2px 2px 5px gold;
+	font-size: 4.0em;
+}
+.quote{
+	color:#CAC684;
+	font-weight: 500;
+	font-size: 1.3em;
+	font-style: italic;
+}
+.banner, .discography, .contact{
+	background-color: rgba(0,0,0,0.90);
+}
+.name{
+	color:#CAC684;
+	font-weight: 600;
+	font-size: 1.6em;
+}
+.footer{
+	color: white;
+	background-color: linear-gradient(to bottom, gold, white);
+	position: relative;
+	height: 50px;
+}
+.media-object{
+	width: 200px;
+	height: 200px;
+}
+.modal{
+	color: dimgrey;
+}
+.modalButton{
+	color:#16150D;
+	background-color: gold;
+	border: 1px solid transparent;
+	font-weight: 700;
+	font-size: 16px;
+	letter-spacing: 0.1em;
+}
+.btn-info:focus, .btn-info.focus ,.modalButton:hover{
+	background-color: goldenrod;
+	border-color: transparent;
+}
+.poster{
+	width: 450px;
+	height: 600px;
+}
+.carousel{
+/*	min-width: 100%;*/
+	min-height: 500px;
+}
+.carImage{
+	max-height: 550px;
+	min-height: 550px;
+}
+
+p{
+	font-size: 1.2em;
+}
+
+.newIndicator{
+	color: gold;
+	font-weight: bold;
+}
+/* 
+
+
+
+Define this in your CSS 
+
+.bgColor = Replace it by the name you want to give your animation
+
+.bgAnimObj = Assign this class to the object you want to apply the effect
+
+*/
+
+
+
+.newIndicator{
+
+    color: gold;
+
+    -webkit-animation: bgColor 5s;
+
+    /* Chrome, Safari */
+
+    -moz-animation: bgColor 5s;
+
+    /* Firefox */
+
+    -o-animation: bgColor 5s;
+
+    /* Opera */
+
+    animation: bgColor 10s;
+
+}
+
+/* 
+
+
+
+Define the keyframe and changes
+
+
+
+*/
+
+
+
+/* Chrome, Safari */
+
+
+
+@-webkit-keyframes bgColor {
+
+    from {
+
+        color: white;
+
+    }
+
+    to {
+
+        color: gold;
+
+    }
+
+}
+
+/* Firefox */
+
+
+
+@-moz-keyframes bgColor {
+
+    from {
+
+        background: white;
+
+    }
+
+    to {
+
+        background: gold;
+
+    }
+
+}
+
+/* Opera */
+
+
+
+@-o-keyframes bgColor {
+
+    from {
+
+        color: white;
+
+    }
+
+    to {
+
+        color: gold;
+
+    }
+
+}
+
+/* Standard syntax */
+
+
+
+@keyframes bgColor {
+
+    from {
+
+        color: white;
+
+    }
+
+    to {
+        color: gold;
+
+    }
+
+}
